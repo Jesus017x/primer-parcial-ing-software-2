@@ -3,13 +3,13 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-    res.send('<h1>Parcial Demo App 2.0</h1> <h4>Message: Success 2nd Run</h4> <p>Version 2.01</p>')
+    res.send('<h1>Parcial Demo App 3.0</h1> <h4>Message: Success 3rd Run</h4> <p>Version 3.0</p>')
 })
 
 app.get('/products', (req, res) => {
     res.send([{
-        productId: '131',
-        price: 100
+        productId: '151',
+        price: 102
     },
     {
         productId: '222',
